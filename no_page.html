@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function handleButtonClick(response) {
+            if (response === 'No') {
+                window.location.href = 'no_page2.html'; // Replace with your Yes page URL
+            } else {
+                window.location.href = 'yes_page2.html'; // Replace with your No page URL
+            }
+        }
+    </script>
+</head>
+<body>
+    <img src="/img.jpg/Layx logo.jpg" height="320"
+    width="320" alt="Layx logo">
+    <br>
+    <br><br><br><br> <br>
+    <h1>Don't lie, Are you dumb?</h1>
+    <br>
+    <button onclick="handleButtonClick('No')">No</button>
+    <button onclick="handleButtonClick('Yes')">Yes</button>
+
+</body>
+</html>
